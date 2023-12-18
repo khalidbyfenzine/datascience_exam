@@ -5,7 +5,7 @@ from regex_operations import perform_regex_operations
 from audio_manipulation import perform_audio_manipulation
 
 def main():
-    st.title("Streamlit Image Manipulation App")
+    st.title("Data science Final Project")
 
     # Navigation bar
     menu = ["Home","Data Exploration", "Image Manipulation", "Regex Operations","Audio Manipulation"]
@@ -24,7 +24,7 @@ def main():
     elif choice == "Regex Operations":
         perform_regex_operations()
 
-    elif choice == "Audio Manipulation":  # Add a new option for audio manipulation
+    elif choice == "Audio Manipulation":
         perform_audio_manipulation()
     
 

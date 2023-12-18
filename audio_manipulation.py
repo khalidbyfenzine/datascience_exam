@@ -117,5 +117,4 @@ def display_audio_information(fs, audio_data):
         data_mono = np.array([audio_data[i][0] for i in range(len(audio_data))])
         st.text(f"Shape of the mono channel: {data_mono.shape}")
 
-# Run the Streamlit app
-perform_audio_manipulation()
+
